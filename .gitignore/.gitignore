@@ -1,0 +1,19 @@
+# Ignorar node_modules (dependências do projeto)
+node_modules/
+
+# Ignorar pastas de relatórios e screenshots gerados pelo Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Ignorar arquivos de configuração local (se houver)
+cypress.env.json
+
+# Ignorar arquivos de ambiente
+.env
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos do sistema operacional
+.DS_Store
